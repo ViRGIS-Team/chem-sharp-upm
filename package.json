@@ -1,0 +1,21 @@
+{
+  "name": "com.chemsharp.molecules",
+  "version": "1.0.140",
+  "displayName": "ChemSharp Molecules",
+  "description": ".NET Library for processing of chemistry related files",
+  "unity": "2022.1",
+  "keywords": [
+    "chemistry",
+    "molecules",
+    "atoms",
+    "proteins"
+  ],
+  "author": {
+    "name": "Jens Krumsieck"
+  },
+  "hideInEditor": false,
+  "dependencies": {
+    "org.nuget.mathnet.numerics": "4.0.0"
+  }
+}
+
