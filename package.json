@@ -1,6 +1,6 @@
 {
   "name": "com.chemsharp.molecules",
-  "version": "1.0.142",
+  "version": "1.0.1500",
   "displayName": "ChemSharp Molecules",
   "description": ".NET Library for processing of chemistry related files",
   "unity": "2021.1",
