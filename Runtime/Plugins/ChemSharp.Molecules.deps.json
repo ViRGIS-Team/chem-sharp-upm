@@ -7,9 +7,9 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "ChemSharp.Molecules/1.0.14": {
+      "ChemSharp.Molecules/1.0.15": {
         "dependencies": {
-          "ChemSharp": "1.0.14",
+          "ChemSharp": "1.0.15",
           "System.Text.Json": "6.0.1"
         },
         "runtime": {
@@ -110,7 +110,7 @@
           }
         }
       },
-      "ChemSharp/1.0.14": {
+      "ChemSharp/1.0.15": {
         "dependencies": {
           "MathNet.Numerics": "4.15.0"
         },
@@ -121,7 +121,7 @@
     }
   },
   "libraries": {
-    "ChemSharp.Molecules/1.0.14": {
+    "ChemSharp.Molecules/1.0.15": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -189,7 +189,7 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "ChemSharp/1.0.14": {
+    "ChemSharp/1.0.15": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
