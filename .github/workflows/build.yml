@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build
 
 # Controls when the workflow will run
 on:
@@ -20,11 +20,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout ChemSharo
+      - name: Checkout ChemSharp
         uses: actions/checkout@v2
         with:
           reposiitory: JensKrumsieck/ChemSharp
-          ref: $ {{ github.event.inputs.tag }}
+          ref: ${{ github.event.inputs.tag }}
 
       - name: Run a one-line script
         run: |
