@@ -23,7 +23,7 @@ jobs:
       - name: Checkout ChemSharp
         uses: actions/checkout@v2
         with:
-          reposiitory: JensKrumsieck/ChemSharp
+          repository: JensKrumsieck/ChemSharp
           ref: ${{ github.event.inputs.tag }}
 
       - name: Run a one-line script
