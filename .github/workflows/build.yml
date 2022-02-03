@@ -36,6 +36,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/source/ChemSharp.Molecules
           dotnet build --configuration Release
-          ls --recursive $GITHUB_WORKSPACE/source/ChemSharp.Molecules
+          cp -f $GITHUB_WORKSPACE/source/ChemSharp.Molecules/bin/Release/netstandard2.1/ChemSharp.Molecules.* $GITHUB_WORKSPACE/dest/Runtime/Plugins
+          ls -R $GITHUB_WORKSPACE/dest
 
 
