@@ -29,6 +29,6 @@ jobs:
       - name: Run a one-line script
         run: |
           cd $GITHUB_WORKSPACE/ChemSharp.Molecules
-          dotnet build
+          dotnet build --configuration Release
 
 
