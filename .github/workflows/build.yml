@@ -25,10 +25,17 @@ jobs:
         with:
           repository: JensKrumsieck/ChemSharp
           ref: ${{ github.event.inputs.tag }}
+          path: source
+          
+      - name: Checkout Package
+        uses: actions/checkout@v2
+        with:
+          path: dest
 
       - name: Run a one-line script
         run: |
-          cd $GITHUB_WORKSPACE/ChemSharp.Molecules
+          cd $GITHUB_WORKSPACE/source/ChemSharp.Molecules
           dotnet build --configuration Release
+          ls --recursive $GITHUB_WORKSPACE/source/ChemSharp.Molecules
 
 
