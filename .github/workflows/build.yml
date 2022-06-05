@@ -39,7 +39,7 @@ jobs:
           cp -fv $GITHUB_WORKSPACE/source/ChemSharp.Molecules/bin/Release/netstandard2.1/ChemSharp.Molecules.* $GITHUB_WORKSPACE/dest/Runtime/Plugins
           cd $GITHUB_WORKSPACE/source/ChemSharp
           dotnet build --configuration Release
-          cp -fv $GITHUB_WORKSPACE/source/ChemSharp/bin/Release/netstandard2.1/ChemSharp.Molecules.* $GITHUB_WORKSPACE/dest/Runtime/Plugins
+          cp -fv $GITHUB_WORKSPACE/source/ChemSharp/bin/Release/netstandard2.1/ChemSharp.* $GITHUB_WORKSPACE/dest/Runtime/Plugins
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v8
